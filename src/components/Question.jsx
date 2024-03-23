@@ -1,7 +1,14 @@
 import QuestionTimer from "./QuestionTimer";
 import Answers from "./Answers";
 
-export default function Question({questionText, answers, onSelectAnswer, selectedAnswer, answerState, onSkipAnswer}) {
+export default function Question({
+  questionText, 
+  answers, 
+  onSelectAnswer, 
+  selectedAnswer, 
+  answerState, 
+  onSkipAnswer
+}) {
   return (
     <div id='question'>
       <QuestionTimer 
